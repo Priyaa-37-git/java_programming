@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int pizza=sc.nextInt();
+         int puffs=sc.nextInt();
+         int cooldrinks=sc.nextInt();
+         int pizzaPrice=100;
+         int puffsPrice=50;
+         int cooldrinksPrice=30;
+        int total = (pizza*pizzaPrice)+(puffs*puffsPrice)+(cooldrinks*cooldrinkPrice);
+        System.out.println("Bill details");
+        System.out.println("No of pizza:"+pizza);
+        System.out.println("No of puffs:"+puffs);
+        System.out.println("No of cooldrinks:"+cooldrinks);
+        System.out.println("total price="+total);
+        System.out.println("Enjoy the show");
+        
+    }
+}
