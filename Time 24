@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int hour =sc.nextInt();
+        int min = sc.nextInt();
+        int sec = sc.nextInt();
+        System.out.println("total hour is"+hour);
+          System.out.println("total min is"+min);
+          System.out.println("total sec is"+sec);
+        
+        
+    }
+}
