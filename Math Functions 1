@@ -8,17 +8,15 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double a = sc.nextDouble();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
-        int d = sc.nextInt();
-        int first = (int)Math.floor(a);
-        int second = first +1;
-        int third = c*2;
-        int fourth = (int)Math.pow(c,d);
-        System.out.println(first);
-         System.out.println(second);
-         System.out.println(third);
-         System.out.println(fourth);
+       float a= sc.nextFloat();
+       int b=sc.nextInt();
+       int c=sc.nextInt();
+       int d=sc.nextInt();
+       System.out.println("\n %d",(int)Math.floor(a));
+       System.out.println("\n %d",(int)Math.ceil(a));
+       System.out.println("\n %d",(int)Math.sqrt(b));
+       System.out.println("\n %d",(int)Math.pow(c,d));
+
+        
     }
 }
